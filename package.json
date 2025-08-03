@@ -1,0 +1,64 @@
+{
+  "name": "umc-landing-page",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Единственное сознание, бесконечные отражения | The Unitary Model of Consciousness - Decentralized landing page on IPFS",
+  "keywords": [
+    "consciousness",
+    "theory",
+    "simulation",
+    "philosophy",
+    "ipfs",
+    "decentralized",
+    "web3",
+    "umc"
+  ],
+  "author": "Alexander Olkhovoy",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "node deploy.js",
+    "deploy:build": "node deploy.js --build",
+    "deploy:skip": "node deploy.js --skip-build",
+    "ipfs:init": "node -e \"import('./ipfs.config.js').then(m => m.initIPFS())\"",
+    "ipfs:health": "node -e \"import('./ipfs.config.js').then(m => m.checkIPFSHealth())\"",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "helia": "^1.0.0",
+    "@helia/http": "^1.0.0",
+    "@helia/interface": "^1.0.0",
+    "@helia/unixfs": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.55.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "prettier": "^3.1.1",
+    "vite": "^5.0.8"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/username/umc-landing-page.git"
+  },
+  "bugs": {
+    "url": "https://github.com/username/umc-landing-page/issues"
+  },
+  "homepage": "https://umc.eth",
+  "funding": {
+    "type": "individual",
+    "url": "https://github.com/sponsors/username"
+  }
+}
