@@ -1,0 +1,38 @@
+# ===== UMC LANDING PAGE ENVIRONMENT VARIABLES =====
+
+# IPFS Configuration
+# Set to 'true' to enable IPFS functionality
+ENABLE_IPFS=true
+
+# Pinata Configuration (for content pinning)
+# Get your API key from https://app.pinata.cloud/
+PINATA_TOKEN="0d792b6b8cf1e9dba724"
+#API Key: 0d792b6b8cf1e9dba724
+#API Secret: 12173010bc1c94682aa3906432b844db3d354e0836fd6f098430a1d69d4d9144
+#JWT: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySW5mb3JtYXRpb24iOnsiaWQiOiJkN2JkODlhYy1lOWU4LTQ4MTQtODkwNi0zODQ4NDY3MzZiNmMiLCJlbWFpbCI6ImFsZXhhbmRlckBvbGtob3ZveS5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwicGluX3BvbGljeSI6eyJyZWdpb25zIjpbeyJkZXNpcmVkUmVwbGljYXRpb25Db3VudCI6MSwiaWQiOiJGUkExIn0seyJkZXNpcmVkUmVwbGljYXRpb25Db3VudCI6MSwiaWQiOiJOWUMxIn1dLCJ2ZXJzaW9uIjoxfSwibWZhX2VuYWJsZWQiOmZhbHNlLCJzdGF0dXMiOiJBQ1RJVkUifSwiYXV0aGVudGljYXRpb25UeXBlIjoic2NvcGVkS2V5Iiwic2NvcGVkS2V5S2V5IjoiMGQ3OTJiNmI4Y2YxZTlkYmE3MjQiLCJzY29wZWRLZXlTZWNyZXQiOiIxMjE3MzAxMGJjMWM5NDY4MmFhMzkwNjQzMmI4NDRkYjNkMzU0ZTA4MzZmZDZmMDk4NDMwYTFkNjlkNGQ5MTQ0IiwiZXhwIjoxNzg1NzI4ODYyfQ.pjUGxIhmVkDBgWh7oYd_uliNaj9nF9SJZhHesP0s1G8
+#your_pinata_api_key_here
+
+# Infura Configuration (alternative pinning service)
+# Get your API key from https://infura.io/
+INFURA_TOKEN=your_infura_api_key_here
+
+# ENS Domain (future feature)
+# Your .eth domain for the landing page
+ENS_DOMAIN=umc.eth
+
+# Environment
+NODE_ENV=production
+
+# Analytics (optional)
+# Google Analytics ID
+GA_ID=your_google_analytics_id_here
+
+# Social Media
+# Twitter handle for social sharing
+TWITTER_HANDLE=@umc_theory
+
+# GitHub repository
+GITHUB_REPO=https://github.com/olkhovoy/umc-landing-page
+
+# Contact information
+CONTACT_EMAIL=contact@umc.eth 
